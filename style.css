@@ -2,6 +2,32 @@ h1 {
     color: blue;
 }
 
+.nav-bar {
+    position: fixed;
+    left: 80%;
+    padding: 10px 10px 10px;
+    background-color: green;
+}
+
+.nav-item {
+    display: inline;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;  
+    background-color: yellow;
+}
+
+.header-container {
+
+}
+
+.section-container {
+    display: inline-block;
+    padding: 40px 10px 20px;
+    border: 2px solid blue;
+}
+
 .audrey-pic {
     width: 500px;
 }
