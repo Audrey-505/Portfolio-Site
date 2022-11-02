@@ -4,10 +4,11 @@ body {
 
 p {
     font-family: 'Oswald', sans-serif;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 h1 {
+    font-family: 'Oswald', sans-serif;
     color: #EEEEEE;
 }
 
@@ -36,7 +37,13 @@ h1 {
 }
 */
 
+a {
+    text-decoration: none;
+    color: #141E61;
+}
+
 .nav-bar {
+  font-family: 'Oswald', sans-serif;
   background-color: #50577A; 
   list-style-type: none;
   text-align: right;
@@ -76,8 +83,8 @@ section h3 {
     width: 375px;
     border-radius: 20%;
     position: relative;
-    left: 55%;
-    bottom: 35px;
+    left: 45%;
+    bottom: 350px;
     padding: 10px 0px;
 }
 
@@ -109,16 +116,17 @@ box-shadow: 5px 5px red;
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    background-color: #2196F3;
+    background-color: #205375;
     padding: 10px;
 }
 .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: #7882A4;
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
     font-size: 30px;
     text-align: center;
     width: 250px;
+    font-family: 'Oswald', sans-serif;
 }
 
 .grid-item:hover {
@@ -126,8 +134,13 @@ box-shadow: 5px 5px red;
     width: 300px;
 }
 
+.contact {
+    font-family: 'Oswald', sans-serif;
+}
+
 footer {
     padding: 0px 10px;
+    font-family: 'Oswald', sans-serif;
 }
 
 @media screen and (max-width: 992px) {
@@ -142,6 +155,11 @@ footer {
     }
     .audrey-pic {
         width: 50%;
+        right: 50px;
+    }
+    .intro {
+        width: 50%;
+        font-size: 1.5em;
     }
     .grid-container {
         width: 75%;
@@ -161,7 +179,18 @@ footer {
     }
     .audrey-pic {
         width: 45%;
+        position: relative;
+        left: 15px;
     }
+    .intro {
+        width: 100%;
+        font-size: 1em;
+    }
+
+    .about-me {
+        width: auto;
+    }
+
     .grid-item {
         width: 45%;
     }
