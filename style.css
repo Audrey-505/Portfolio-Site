@@ -29,25 +29,6 @@ a {
     background-color: #000000;
 }
 
-/* .nav-bar {
-  font-family: 'Oswald', sans-serif;
-  background-color: #000000; 
-  list-style-type: none;
-  text-align: right;
-  margin: 0;
-  padding: 15px 0px;
-} */
-
-/* .navbar-brand {
-    display: inline-block;
-    padding-top: 0.3125rem;
-    padding-bottom: 0.3125rem;
-    margin-right: 1rem;
-    font-size: 1.25rem;
-    line-height: inherit;
-    white-space: nowrap;
-} */
-
 .navlogo {
     width: 15%;
 }
@@ -95,30 +76,9 @@ section h3 {
     width: 5%;
 }
 
-/* .first-project-image {
-    width: 750px;
-    height: 500px;
-    padding: 15px;
-    position: relative;
-    left: 20%;
-    border-radius: 25%;
-} 
-
-.first-project-image:hover {
-box-shadow: 5px 5px red;
+.contact-cons {
+    width: 3%;
 }
-
-.project-images:hover {
-    box-shadow: 3px 3px 3px black;
-}
-
-.project-images {
-    position: relative;
-    padding: 20px 190px 20px;
-    width: 200px;
-    height: 200px;
-    border-radius: 15%;
-}  */
 
 .grid-container {
     display: grid;
