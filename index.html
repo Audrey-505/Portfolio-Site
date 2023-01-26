@@ -1,143 +1,126 @@
 <!DOCTYPE html>
 <html lang="en=us">
-    <head>
-        <meta charset="UTF-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./style.css">
-        <title>Portfolio</title>
-    </head>
-    <body>
 
-      <div>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio</title>
+    <link rel="icon" type="image/logo-icon" href="Assets/darklogo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div>
         <header>
-            <nav class="nav-bar">
-                <!-- <a class="navbar-brand" href="#title">
-                    <img src="Assets/Adriana Alcantara.png" class="'navlogo">
-                </a> -->
+                <!-- <nav class="nav-bar navbar-expand-lg">
+                    <a class="navbar-brand d-flex justify-content-left" href="#"><img class="navlogo" src="Assets/logo.png" alt="logo"></a>
+
                 <ul class="nav-list">
-                    <li class="nav-item"><a href="#about">About</a></li>
-                    <li class="nav-item"><a href="#projects">Projects</a></li>
-                    <li class="nav-item"><a href="#contact">Contact</a></li>
-                    <li class="nav-item"><a href="Assets/Resume 2022.pdf">Resume</a></li>
+                    <li class="nav-item"><a class="navText" href="#about">About</a></li>
+                    <li class="nav-item"><a class="navText" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="navText" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="navText" href="Assets/Resume 2022.pdf">Resume</a></li>
                 </ul>
-            </nav>
+            </nav> -->
+
+            <nav class="navbar">
+                <a class="navbar-brand" href="#">
+                  <img src="Assets/logo.png" width="200" height="200" alt="logo">
+                </a>
+                <ul class="nav-list">
+                    <li class="nav-item"><a class="navText" href="#about">About</a></li>
+                    <li class="nav-item"><a class="navText" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="navText" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="navText" href="Assets/Resume 2022.pdf">Resume</a></li>
+                </ul>
+              </nav>
         </header>
-      </div>
-        
-     <div class="section-container" id="about">
-          <section class="intro">
-            <h3>Hello! My name is</h3>
-            <h1>Audrey Alcantara</h1>
-            <img src="Assets/IMG-7109.jpg" alt="picture of Audrey" class="audrey-pic">
-          </section> 
-    
-    
-    
-    
-      <!-- <div class="section-container" id="about">
-            <section class="intro">
-                <h3>Hello! My name is</h3>
-                <h1>Audrey Alcantara</h1>
-            </section>
+    </div>
 
-        <section class="audrey-pic-holder">
-            <img src="./IMG-7109.jpg" alt="picture of Audrey" class="audrey-pic">
-        </section>  -->
-        
+    <div class="section-container text-left" id="about">
+        <section class="intro">
+            <h3 class="large-text">Hello! My name is</h3>
+            <h1 class="large-text">Adriana Alcantara</h1>
+            <img src="Assets/portAudrey.JPG" alt="picture of Audrey" class="audrey-pic">
+        </section>
 
-        <section class="about-me"> 
-            <p>I am an Atlanta based web developer with a goal-driven mindset. One of many passions include learning and creating.</p>
-
-            <p>Currently working in a technical support role, spending most of my off time on building websites and growing my knowlodge base. I'm looking to break into the software developer space.</p>
-                
+        <section class="about-me">
+            <p>I am an Atlanta based developer with a goal-driven mindset.</p>
+            <p>A lot of my free time is spent on building websites and growing my knowlodge base. I attended Georgia
+                Tech’s Full Stack Development course, with me I took several technical skills that I aspire to put to
+                use. A list of a few of the technologies I leverage include:</p>
+    
+            <div class="tech-cons-holder d-flex justify-content-center"><img class="tech-cons" src="Assets/html-5.png" alt="Html"> <img class="tech-cons" src="Assets/css-3.png" alt="css"> <img class="tech-cons" src="Assets/bootstrap.png" alt="bootstrap"> <img class="tech-cons" src="Assets/java-script.png" alt="Javascript"> <img class="tech-cons" src="Assets/github.png" alt="Github"> <img class="tech-cons" src="Assets/mysql.png" alt="mySQL"> <img class="tech-cons" src="Assets/nodejs.png" alt="nodejs"> <img class="tech-cons" src="Assets/mongoDB.png" alt="mongoDB"> <img class="tech-cons" src="Assets/react.png" alt="React"></div>
             <p>I also enjoy working as an assitant photographer and enjoy creating art through several mediums.</p>
         </section>
-     </div>
-    
-     <!-- <div class="section-container" id="projects">
-        <section class="projects">
-            <h1>Projects</h1>
-            <h3>check out some of my work!</h3>
-        </section>
+    </div>
 
-        <section class="project-pics">
-            <div>
-                <a href="https://audrey-505.github.io/Audrey-505-.Simon-Game.io/"><img src="./simon.jpeg" alt="box of colors" class="first-project-image"></a>
-            </div>
-            <div>
-                <a href="https://audrey-505.github.io/"><img src="./dice.jpeg" alt="dice" class="project-images"></a>
-                <a href="https://audrey-505.github.io/Audrey-505.Drums.io/"><img src="./drums.png" alt="drums" class="project-images"></a>
-            </div>
-            <div>
-                <img src="./project4.png" alt="homework" class="project-images">
-                <img src="./project5.jpeg" alt="animated computer" class="project-images">
-            </div>
-        </section>
-     </div>  -->
-
-
-     <!-- code below was <div class="section-container"> and img class was project-images / the first image class was first-project-image -->
-     <div class="grid-container" id="projects">
+    <!-- code below was <div class="section-container"> and img class was project-images / the first image class was first-project-image -->
+    <div class="grid-container" id="projects">
         <div class="grid-item">
+            <h4>Minder Movie Dating</h4>
+            <h5><a href="https://github.com/Audrey-505/animated-spork">GitHub Repo</a></h5>
+            <a href="https://audrey-505.github.io/animated-spork/"><img src="Assets/movies.png" alt="movie-icon"
+                    class="grid-item"></a>
+            <h4>Weather App</h4>
+            <h5><a href="https://github.com/Audrey-505/5-Day-Weather-Forcast">GitHub Repo</a></h5>
+            <a href="https://audrey-505.github.io/5-Day-Weather-Forcast/"><img src="Assets/sun.jpeg" alt="homework"
+                    class="grid-item"></a>
+        </div>
+        <div class="grid-item">
+            <h4>Daily Note Taker</h4>
+            <h5><a href="https://github.com/Audrey-505/Daily-Notes-Hero">GitHub Repo</a></h5>
+            <a href="https://daily-note-keeper-11323.herokuapp.com/"><img src="Assets/project4.png" alt="notes"
+                    class="grid-item"></a>
             <h4>Simon Game</h4>
-            <a href="https://audrey-505.github.io/Audrey-505-.Simon-Game.io/"><img src="Assets/simon.jpeg" alt="box of colors" class="grid-item"></a>
-            <h4>Dice Game</h4>
-            <a href="https://audrey-505.github.io/"><img src="Assets/dice.jpeg" alt="dice" class="grid-item"></a>
+            <h5><a href="https://github.com/Audrey-505/Audrey-505-.Simon-Game.io">GitHub Repo</a></h5>
+            <a href="https://audrey-505.github.io/Audrey-505-.Simon-Game.io/"><img src="Assets/simon.jpeg"
+                    alt="box of colors" class="grid-item"></a>
         </div>
         <div class="grid-item">
             <h4>Drum Kit</h4>
-            <a href="https://audrey-505.github.io/Audrey-505.Drums.io/"><img src="Assets/drums.png" alt="drums" class="grid-item"></a>
-            <h4>Minder Movie Dating</h4>
-            <a href="https://audrey-505.github.io/animated-spork/"><img src="Assets/movies.png" alt="movie-icon" class="grid-item"></a>
+            <h5><a href="https://github.com/Audrey-505/Audrey-505.Drums.io">GitHub Repo</a></h5>
+            <a href="https://audrey-505.github.io/Audrey-505.Drums.io/"><img src="Assets/drums.png" alt="drums"
+                    class="grid-item"></a>
+            <h4>Dice Game</h4>
+            <h5><a href="https://github.com/Audrey-505">GitHub Repo</a></h5>
+            <a href="https://audrey-505.github.io/"><img src="Assets/dice.jpeg" alt="dice" class="grid-item"></a>
         </div>
-        <div class="grid-item">
-            <h4>Daily Note Taker!</h4>
-            <a href="https://daily-note-keeper-11323.herokuapp.com/"><img src="Assets/project4.png" alt="notes" class="grid-item"></a>
-            <h4>Weather App!</h4>
-            <a href="https://audrey-505.github.io/5-Day-Weather-Forcast/"><img src="Assets/sun.jpeg" alt="homework" class="grid-item"></a>
-        </div>
-      </div>
-      
+    </div>
 
-     
-     <div class="section-container" id="contact">
-      <section class="contact">
-            <h1>Contact</h1>
-            <a href="mailto:adrianaquin22@gmail.com"><h3>Email</h3></a>
-            <h3>678.502.9575</h3>
-            <a href="https://github.com/Audrey-505"><h3>Github</h3></a>
+    <div class="section-container" id="contact">
+        <section class="contact">
+            <h2>Contact</h2>
+            <h4>678.502.9575</h4>
+            <a href="mailto:adrianaquin22@gmail.com">
+                <h4>Email</h4>
+            </a>
+            <a href="https://github.com/Audrey-505">
+                <h4>Github</h4>
+            </a>
+            <a href="https://www.linkedin.com/in/adriana-alcantara-96b9b4160/">
+                <h4>LinkedIn</h4>
+            </a>
         </section>
-     </div>
+    </div>
 
-        <footer>
-            <p>Designed & Built by Audrey Alcantara</p>
-        </footer>
+    <footer>
+        <p>Designed & Built by Audrey Alcantara</p>
+        <br>
+        <br>
+        <p class="fine-print"><small>Attributions:<a href="https://www.flaticon.com/free-icons/mysql" title="mysql icons">Mysql icons created by Freepik - Flaticon</a>
+            <a href="https://www.flaticon.com/free-icons/java" title="java icons">Java icons created by Pixel perfect - Flaticon</a>
+            <a href="https://www.flaticon.com/free-icons/html-5" title="html 5 icons">Html 5 icons created by Freepik - Flaticon</a>
+            <a href="https://www.flaticon.com/free-icons/react" title="react icons">React icons created by Freepik - Flaticon</a>
+            <a href="https://www.flaticon.com/free-icons/bootstrap" title="bootstrap icons">Bootstrap icons created by Freepik - Flaticon</a>
+            <a href="https://www.flaticon.com/free-icons/css" title="css icons">Css icons created by Pixel perfect - Flaticon</a>
+            <a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by riajulislam - Flaticon</a></small></p>
+    </footer>
+</body>
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    </body>
 </html>
